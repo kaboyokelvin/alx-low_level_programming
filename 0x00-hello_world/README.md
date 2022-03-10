@@ -1,1 +1,1 @@
-my readme
+C is fun
