@@ -1,2 +1,1 @@
-My readme
-Pointers and arrays
+my readme
