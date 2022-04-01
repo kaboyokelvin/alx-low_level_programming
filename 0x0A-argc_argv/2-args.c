@@ -1,19 +1,28 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - print each argument passed to program on a line
- * @argc: argument counter
- * @argv: pointer to array of arguments
+ * main - Print the name of the program
+ * @argc: Count arguments
+ * @argv: Arguments
  *
- * Return: 0 as success
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
 {
-	int i = 0;
 
-	while (i < argc)
-		printf("%s\n", argv[i++]);
+/*Declaring variables*/
+int count = 0;
 
-	return (0);
+if (argc > 0)
+{
+/*WHILE - Print each arguments*/
+while (count < argc)
+{
+printf("%s\n", argv[count]);
+count++;
+}
+}
+return (0);
 }
